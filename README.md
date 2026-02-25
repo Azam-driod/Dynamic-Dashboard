@@ -4,57 +4,16 @@ Datasets Used
 📊 Retail Sales Dashboard (Excel)
 
 An interactive Retail Sales Dashboard built in Microsoft Excel using Power Query, Pivot Tables, Charts, and Slicers to analyze sales performance, profitability, customer segments, and returns data.
-
-📁 Datasets Used
-
-The dashboard is built using three primary datasets:
-
-1️⃣ Orders Table
-
-Contains detailed information about customer orders, shipping, and financial performance.
-
-Key Columns:
-
-Order ID
-
-Returned
-
-Order Date
-
-Ship Date
-
-Ship Mode
-
-Customer Name
-
-Segment
-
-Country
-
-Market
-
-Sales
-
-Profit
-
-Discount
+The Orders table contains details of customer orders, including product, shipping, and financial metrics.
 
 Sample Data:
 
 Order ID	Returned	Order Date	Ship Date	Ship Mode	Customer Name	Segment	Country	Market	Sales	Profit	Discount
 CA-2012-124891	No	31-07-2020	31-07-2020	Same Day	Rick Hansen	Consumer	United States	US	2309.65	762.18	0
 IN-2013-77878	Yes	05-02-2021	07-02-2021	Second Class	Justin Ritter	Corporate	Australia	APAC	3709.40	-288.77	0.1
-2️⃣ Returns Table
-
-Tracks returned orders along with their respective markets.
-
-Columns:
-
-Returned
-
-Order ID
-
-Market
+IN-2013-71249	No	17-10-2021	18-10-2021	First Class	Craig Reiter	Consumer	Australia	APAC	5175.17	919.97	0.1
+2. Returns Table
+Tracks orders that have been returned, along with the associated markets.
 
 Sample Data:
 
@@ -62,15 +21,9 @@ Returned	Order ID	Market
 Yes	MX-2013-168137	LATAM
 Yes	US-2011-165316	LATAM
 Yes	ES-2013-1525878	EU
-3️⃣ People Table
-
-Contains details of sales representatives and their regions.
-
-Columns:
-
-Person
-
-Region
+Yes	CA-2013-118311	United States
+3. People Table
+Contains details about sales representatives and their respective regions.
 
 Sample Data:
 
@@ -78,130 +31,90 @@ Person	Region
 Anna Andreadi	Central
 Chuck Magee	South
 Kelly Williams	East
-🎯 Problem Statements Solved
-1️⃣ Key Performance Indicators (KPIs)
-
-Objective:
-Dynamically calculate and display:
-
-Total Sales
-
-Total Profit
-
-Total Quantity
-
-Number of Orders
-
-Profit Margin
-
-Implementation Steps:
-
-Imported Orders table using Power Query
-
-Created calculated column:
-
-Profit Margin = Profit / Sales
-
-Used formulas:
-
-=SUM(Sales)
-
-=SUM(Profit)
-
-=SUM(Quantity)
-
-=COUNT(Order ID)
-
-Built a KPI summary section with formatted indicators
-
-2️⃣ Sales & Profit Trend Analysis
-
-Objective: Identify sales and profit patterns over time.
+Matt Collister	West
+Deborah Brumfield	Africa
+Problem Statements Solved with Steps
+1. Key Performance Indicators (KPIs)
+Objective: Calculate and display Total Sales, Total Profit, Total Quantity, Number of Orders, and Profit Margin dynamically.
 
 Steps:
 
-Created Pivot Table grouped by Year & Month
+Import the Orders Table into Excel using Power Query.
+Create calculated columns for:
+Profit Margin = Profit / Sales.
+Total Orders = Count of Order ID.
+Use Excel formulas to calculate:
+Total Sales = =SUM(Sales).
+Total Profit = =SUM(Profit).
+Total Quantity = =SUM(Quantity).
+Build a dynamic KPI table and use symbols to enhance visual appeal.
+image
 
-Added Sales and Profit as values
-
-Built a Line Chart for trend visualization
-
-Added Slicers for dynamic filtering
-
-3️⃣ Category-Wise Profit Analysis
-
-Objective: Evaluate profitability across product categories.
-
-Steps:
-
-Pivot Table with Category (Rows) and Profit (Values)
-
-Sorted in descending order
-
-Created Bar Chart
-
-Added slicers for interactivity
-
-4️⃣ Segment-Wise Sales Share (%)
-
-Objective: Analyze sales distribution across customer segments.
+2. Sales and Profit Analysis
+Objective: Visualize sales and profit trends over time to identify patterns.
 
 Steps:
 
-Pivot Table with Segment and Sales
-
-Calculated percentage share:
-
-Sales % = Sales / Total Sales * 100
-
-Created Pie/Donut Chart
-
-Added dynamic data labels
-
-5️⃣ Sales by Country
-
-Objective: Identify top-performing countries.
+Create a Pivot Table with Order Date grouped by Year and Month.
+Add Sales and Profit as values.
+Create a Line Chart to display trends for Sales and Profit.
+Apply slicers to filter by category, market, or region dynamically.
+3. Category-Wise Profit
+Objective: Analyze profitability across product categories.
 
 Steps:
 
-Pivot Table with Country and Sales
-
-Sorted in descending order
-
-Applied Conditional Formatting / Heatmap
-
-6️⃣ Top 5 Sub-Categories
-
-Objective: Identify highest-performing subcategories.
+Create a Pivot Table using Category as rows and Profit as values.
+Sort the table in descending order of Profit.
+Create a Bar Chart to visualize category-wise profit.
+Add slicers for interactivity.
+4. Segment-Wise Sales Share (%)
+Objective: Display the proportion of sales for each customer segment.
 
 Steps:
 
-Pivot Table with Sub-Category and Sales
+Create a Pivot Table with Segment as rows and Sales as values.
+Calculate percentage share using =Sales / Total Sales * 100.
+Create a Pie Chart or Donut Chart to display the sales share.
+Add labels to show percentage values dynamically.
+5. Sales by Country
+Objective: Analyze sales performance by country.
 
-Sorted in descending order
+Steps:
 
-Filtered Top 5
+Create a Pivot Table with Country as rows and Sales as values.
+Sort the table in descending order of Sales.
+Use conditional formatting or a Heatmap to highlight top-performing countries.
+6. Top 5 Subcategories
+Objective: Identify the top 5 performing subcategories.
 
-Visualized using Column Chart
+Steps:
 
-⚙️ Dynamic Features
+Create a Pivot Table with Sub-Category as rows and Sales as values.
+Sort the table in descending order of Sales.
+Filter to display the top 5 Sub-Categories.
+Use a Column Chart to visualize results.
+Dynamic Features
+The dashboard includes:
 
-✔️ Interactive Slicers
-✔️ Dynamic KPI Cards
-✔️ Real-time Chart Updates
-✔️ Automated Data Cleaning via Power Query
-✔️ Interactive Pivot Tables
+Dynamic Charts: Update in real-time based on slicer inputs.
+Power Query Integration: Automates data cleaning and transformation.
+KPI Table: Highlights critical metrics at a glance.
+Next Steps for Extension
+Additional insights to enhance the dashboard:
 
-🛠 Tools & Technologies Used
+Return Analysis: Investigate return rates by market or product category.
+Top and Bottom Customers: Identify most and least profitable customers.
+Market Analysis: Compare performance across different markets.
+Product Analysis: Evaluate individual product contributions.
+Significance
+This dashboard empowers retail businesses to:
 
-Microsoft Excel
+Track performance through KPIs.
+Understand category, segment, and geographic trends.
+Make data-driven decisions to optimize operations.
+Visuals
+This repository includes:
 
-Power Query
-
-Pivot Tables
-
-Pivot Charts
-
-Slicers
-
-
+Visual examples for each solved problem statement.
+Snapshots of the final dashboard with all components.
