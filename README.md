@@ -51,7 +51,7 @@ o	Total Sales = =SUM(Sales).
 o	Total Profit = =SUM(Profit).
 o	Total Quantity = =SUM(Quantity).
 4.	Build a dynamic KPI table and use symbols to enhance visual appeal.
-
+![image.alt](https://github.com/Azam-driod/Dynamic-Dashboard/blob/b0ffc7cfc0ac05fa7f133a155a55f2278b6a2954/dashboard%20kpis%20screenshot.png)
 ________________________________________
 2. Sales and Profit Analysis
 Objective: Visualize sales and profit trends over time to identify patterns.
