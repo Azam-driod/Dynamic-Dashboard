@@ -73,6 +73,7 @@ Steps:
 2.	Sort the table in descending order of Profit.
 3.	Create a Bar Chart to visualize category-wise profit.
 4.	Add slicers for interactivity.
+![image.alt](https://github.com/Azam-driod/Dynamic-Dashboard/blob/cdd09f0b8812b58988732e40aa84020e2bc2a37e/dashboard%20category.png)
 ________________________________________
 **4. Segment-Wise Sales Share (%)**
 Objective: Display the proportion of sales for each customer segment.
