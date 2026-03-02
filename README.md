@@ -63,6 +63,8 @@ Steps:
 2.	Add Sales and Profit as values.
 3.	Create a Line Chart to display trends for Sales and Profit.
 4.	Apply slicers to filter by category, market, or region dynamically.
+![image.alt]()
+
 ________________________________________
 **3. Category-Wise Profit**
 Objective: Analyze profitability across product categories.
