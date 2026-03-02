@@ -88,6 +88,8 @@ Steps:
 1.	Create a Pivot Table with Country as rows and Sales as values.
 2.	Sort the table in descending order of Sales.
 3.	Use conditional formatting or a Heatmap to highlight top-performing countries.
+
+![image.alt](https://github.com/Azam-driod/Dynamic-Dashboard/blob/705f9055cba9ff6eb30653073e24f7c69a13d046/dashboard%20region.png)
 ________________________________________
 **6. Top 5 Subcategories**
 Objective: Identify the top 5 performing subcategories.
