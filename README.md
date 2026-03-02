@@ -54,6 +54,7 @@ o	Total Sales = =SUM(Sales).
 o	Total Profit = =SUM(Profit).
 o	Total Quantity = =SUM(Quantity).
 4.	Build a dynamic KPI table and use symbols to enhance visual appeal.
+
 ![image.alt](https://github.com/Azam-driod/Dynamic-Dashboard/blob/b0ffc7cfc0ac05fa7f133a155a55f2278b6a2954/dashboard%20kpis%20screenshot.png)
 ________________________________________
 **2. Sales and Profit Analysis**
@@ -74,6 +75,7 @@ Steps:
 2.	Sort the table in descending order of Profit.
 3.	Create a Bar Chart to visualize category-wise profit.
 4.	Add slicers for interactivity.
+
 ![image.alt](https://github.com/Azam-driod/Dynamic-Dashboard/blob/cdd09f0b8812b58988732e40aa84020e2bc2a37e/dashboard%20category.png)
 ________________________________________
 **4. Segment-Wise Sales Share (%)**
