@@ -63,7 +63,7 @@ Steps:
 2.	Add Sales and Profit as values.
 3.	Create a Line Chart to display trends for Sales and Profit.
 4.	Apply slicers to filter by category, market, or region dynamically.
-![image.alt]()
+![image.alt](https://github.com/Azam-driod/Dynamic-Dashboard/blob/84103a94be88921dd6286cb0fe5be2d3befc8f9c/dashboard%20sales%20and%20profit.png)
 
 ________________________________________
 **3. Category-Wise Profit**
