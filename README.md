@@ -81,6 +81,8 @@ Steps:
 2.	Calculate percentage share using =Sales / Total Sales * 100.
 3.	Create a Pie Chart or Donut Chart to display the sales share.
 4.	Add labels to show percentage values dynamically.
+
+![image.alt](https://github.com/Azam-driod/Dynamic-Dashboard/blob/e10162720a0b71f6c3b6384362ef7f8492f71aee/dashboard%20segment.png)
 ________________________________________
 **5. Sales by Country**
 Objective: Analyze sales performance by country.
