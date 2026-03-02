@@ -98,6 +98,8 @@ Steps:
 2.	Sort the table in descending order of Sales.
 3.	Filter to display the top 5 Sub-Categories.
 4.	Use a Column Chart to visualize results.
+
+![image.alt](https://github.com/Azam-driod/Dynamic-Dashboard/blob/f01d9d1c6c6f9c28a987dcffb6937f753bb7b09d/dashboard%20top%205.png)
 ________________________________________
 **Dynamic Features**
 The dashboard includes:
