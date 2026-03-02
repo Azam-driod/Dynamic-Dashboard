@@ -51,7 +51,6 @@ o	Total Sales = =SUM(Sales).
 o	Total Profit = =SUM(Profit).
 o	Total Quantity = =SUM(Quantity).
 4.	Build a dynamic KPI table and use symbols to enhance visual appeal.
- ![Uploading dashboard kpis screenshot.png…]()
 
 ________________________________________
 2. Sales and Profit Analysis
